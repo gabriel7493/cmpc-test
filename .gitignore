@@ -1,8 +1,12 @@
 # Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+/backend/dist
+/frontend/dist
+/backend/node_modules
+/frontend/node_modules
+/backend/build
+/frontend/build
+/backend/tmp
+/frontend/tmp
 
 # Logs
 logs
@@ -22,3 +26,6 @@ lerna-debug.log*
 # temp directory
 .temp
 .tmp
+
+# IDE files
+.idea
